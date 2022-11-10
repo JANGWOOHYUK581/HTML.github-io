@@ -57,8 +57,10 @@
             </div>
 
             <nav id="navbar" class="nav-menu navbar">
+                <!-- 메뉴바 -->
                 <ul>
                     <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+                    <!-- Scrollspy가 제대로 작동 -->
                     <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
                     <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Carrer</span></a></li>
                     <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
@@ -72,6 +74,7 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <!--영역을 감싸고 있는 div에 d-flex 클래스를 줌. justify -content(가로 축을 기준으로 좌우에 대한 정렬) align-items-center(컨테이너의 세로 축의 중앙으로 정렬)-->
         <div class="hero-container" data-aos="fade-in">
             <h1>JANG WOO HYUK</h1>
             <p>I'm <span class="typed" data-typed-items="Developer, Cloud Enginner"></span></p>
@@ -94,6 +97,7 @@
                 <div class="row">
                     <div class="col-lg-4" data-aos="fade-right">
                         <img src="assets/img/eye.jpg" height="315" class="img-fluid" alt="">
+                        <!-- img 요소는 문서에 이미지를 넣음.-->
                     </div>
                     <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                         <h3>Developer &amp; Cloud Enginner</h3>
@@ -122,11 +126,6 @@
 
             </div>
         </section>
-        <!-- End About Section -->
-
-        <!-- ======= Facts Section ======= -->
-
-        <!-- End Facts Section -->
 
         <!-- ======= Skills Section ======= -->
         <section id="skills" class="skills section-bg">
@@ -191,6 +190,7 @@
 
         <!-- ======= Resume Section ======= -->
         <section id="resume" class="resume">
+            <!-- Section 태그는 제목을 나타내는 tag임-->
             <div class="container">
 
                 <div class="section-title">
@@ -217,6 +217,7 @@
                         <div class="embed-responsive embed-responsive-21by9">
                             <iframe class="embed-responsive-item" width="600" height="315" src="https://www.youtube.com/embed/c7brM_8ca_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
+                            <!-- iframe 태그 안에 유튜브 동영사 삽입 -->
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
@@ -269,6 +270,7 @@
                         <div class="portfolio-links">
                             <a href="assets/img/portfolio/networks.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                             <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            <!-- portfolio-details 페이지로 연결 -->
                         </div>
                     </div>
                 </div>
@@ -278,6 +280,7 @@
                         <img src="assets/img/portfolio/networks2.jpg" class="img-fluid" alt="">
                         <div class="portfolio-links">
                             <a href="assets/img/portfolio/networks2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <!-- 이미지를 누르면 크게 확대 -->
                             <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
@@ -299,76 +302,38 @@
         </section>
         <!-- End Portfolio Section -->
 
-        <!-- ======= Services Section ======= -->
-
-        <!-- End Services Section -->
-
-        <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials section-bg">
+        <!-- ======= Footer ======= -->
+        <footer id="footer">
             <div class="container">
-
-
-                <!-- End testimonial item -->
-
-
-                <!-- End testimonial item -->
-
-
-                <!-- End testimonial item -->
-
-
-                <!-- End testimonial item -->
-
-
-                <!-- End testimonial item -->
-
+                <div class="copyright">
+                    &copy; Copyright <strong><span>iPortfolio</span></strong>
+                </div>
+                <div class="credits">
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
             </div>
-            <div class="swiper-pagination"></div>
-            </div>
+        </footer>
+        <!-- End  Footer -->
 
-            </div>
-        </section>
-        <!-- End Testimonials Section -->
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-        <!-- ======= Contact Section ======= -->
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/vendor/typed.js/typed.min.js"></script>
+        <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
 
-        <!-- End Contact Section -->
-
-    </main>
-    <!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-        <div class="container">
-            <div class="copyright">
-                &copy; Copyright <strong><span>iPortfolio</span></strong>
-            </div>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
-        </div>
-    </footer>
-    <!-- End  Footer -->
-
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/typed.js/typed.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+        <!-- Template Main JS File -->
+        <script src="assets/js/main.js"></script>
 
 </body>
 
